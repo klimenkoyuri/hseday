@@ -854,10 +854,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_1_opacity.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rfR-ts-T29">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Только избранные могут пройти" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIV-xn-Ema">
                                 <rect key="frame" x="134" y="195" width="330" height="25"/>
                                 <constraints>
@@ -894,12 +890,8 @@
                             <constraint firstItem="cBo-zW-cVw" firstAttribute="top" secondItem="cIV-xn-Ema" secondAttribute="bottom" constant="51" id="5Xl-CH-D0U"/>
                             <constraint firstItem="cIV-xn-Ema" firstAttribute="top" secondItem="Ugi-Ih-Pcu" secondAttribute="bottom" constant="131" id="EOT-xR-5SA"/>
                             <constraint firstItem="cBo-zW-cVw" firstAttribute="centerX" secondItem="EXc-Cs-aau" secondAttribute="centerX" id="Fgo-Db-DJf"/>
-                            <constraint firstItem="rfR-ts-T29" firstAttribute="centerX" secondItem="cIV-xn-Ema" secondAttribute="centerX" constant="1" id="I0f-4W-gY9"/>
-                            <constraint firstItem="rfR-ts-T29" firstAttribute="top" secondItem="p3v-L9-cAE" secondAttribute="top" id="K5Y-ZP-JRy"/>
-                            <constraint firstItem="rfR-ts-T29" firstAttribute="leading" secondItem="p3v-L9-cAE" secondAttribute="leading" id="NLL-Im-cew"/>
                             <constraint firstItem="EXc-Cs-aau" firstAttribute="centerX" secondItem="p3v-L9-cAE" secondAttribute="centerX" constant="-7" id="avT-0P-VGI"/>
                             <constraint firstItem="EXc-Cs-aau" firstAttribute="top" secondItem="cBo-zW-cVw" secondAttribute="bottom" constant="49" id="h26-aM-6Ck"/>
-                            <constraint firstItem="rfR-ts-T29" firstAttribute="bottom" secondItem="U4C-lz-GF7" secondAttribute="top" id="sVS-RW-0rf"/>
                             <constraint firstItem="cBo-zW-cVw" firstAttribute="centerX" secondItem="cIV-xn-Ema" secondAttribute="centerX" constant="-6" id="x7P-n9-Jma"/>
                         </constraints>
                     </view>
@@ -1275,7 +1267,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ekran.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gvp-fg-uoU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ekran.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gvp-fg-uoU">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16f-En-U0N">
@@ -1316,7 +1308,6 @@
         <image name="2.jpg" width="1280" height="853"/>
         <image name="Ekran.jpg" width="1080" height="1920"/>
         <image name="FB-f-Logo__blue_100.png" width="100" height="100"/>
-        <image name="back_1_opacity.jpg" width="1080" height="1920"/>
         <image name="backwon" width="1080" height="1920"/>
         <image name="cup" width="314" height="335"/>
         <image name="hamb" width="48" height="48"/>
@@ -1333,6 +1324,6 @@
         <image name="youtubeLabel.png" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ace-GF-1gL"/>
+        <segue reference="vUS-q2-35K"/>
     </inferredMetricsTieBreakers>
 </document>
