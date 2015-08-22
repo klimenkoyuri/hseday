@@ -360,10 +360,10 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9N-VN-sea">
-                                <rect key="frame" x="0.0" y="539" width="600" height="61"/>
+                                <rect key="frame" x="0.0" y="542" width="600" height="58"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196078431372548" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="NSm-dA-i8P"/>
+                                    <constraint firstAttribute="height" constant="58" id="NSm-dA-i8P"/>
                                     <constraint firstAttribute="height" constant="58" id="bkz-XF-Jnd"/>
                                     <constraint firstAttribute="width" constant="600" id="jkl-65-G7M"/>
                                     <constraint firstAttribute="width" secondItem="U9N-VN-sea" secondAttribute="height" multiplier="300:29" id="ldR-Bg-CE7"/>
@@ -854,21 +854,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< Updated upstream:HSE Day/Base.lproj/Main.storyboard
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_1_opacity.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rfR-ts-T29">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Только избранные могут пройти" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIV-xn-Ema">
+=======
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rfR-ts-T29">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Только избранный" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIV-xn-Ema">
+>>>>>>> Stashed changes:HSE Day/Base.lproj/Main.storyboard
                                 <rect key="frame" x="134" y="195" width="330" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="330" id="OjB-Qo-DB6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OjB-Qo-DB6"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите код" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cBo-zW-cVw">
+                                <rect key="frame" x="208" y="271" width="170" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="FmB-HB-R46"/>
+                                    <constraint firstAttribute="width" constant="170" id="cNj-eo-uHa"/>
+                                    <constraint firstAttribute="height" constant="35" id="lSX-Zk-3kI"/>
+                                    <constraint firstAttribute="height" constant="35" id="uB1-Aa-0E4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FmB-HB-R46"/>
+                                        <exclude reference="lSX-Zk-3kI"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="сможет пройти" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnm-6l-wfO">
+                                <rect key="frame" x="134" y="228" width="330" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="iHd-cV-XoG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iHd-cV-XoG"/>
+                                    </mask>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXc-Cs-aau">
-                                <rect key="frame" x="260" y="355" width="66" height="36"/>
+                                <rect key="frame" x="260" y="564" width="66" height="36"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Начать">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -878,30 +924,51 @@
                                     <action selector="go:" destination="Rpo-9c-4Pk" eventType="touchUpInside" id="ZJp-WT-1KC"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите код" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cBo-zW-cVw">
-                                <rect key="frame" x="208" y="271" width="170" height="35"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="FmB-HB-R46"/>
-                                    <constraint firstAttribute="height" constant="35" id="lSX-Zk-3kI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="cBo-zW-cVw" firstAttribute="top" secondItem="bnm-6l-wfO" secondAttribute="bottom" constant="15" id="58O-W3-4fb"/>
                             <constraint firstItem="cBo-zW-cVw" firstAttribute="top" secondItem="cIV-xn-Ema" secondAttribute="bottom" constant="51" id="5Xl-CH-D0U"/>
-                            <constraint firstItem="cIV-xn-Ema" firstAttribute="top" secondItem="Ugi-Ih-Pcu" secondAttribute="bottom" constant="131" id="EOT-xR-5SA"/>
+                            <constraint firstItem="U4C-lz-GF7" firstAttribute="top" secondItem="EXc-Cs-aau" secondAttribute="bottom" id="8WM-7m-xyZ"/>
+                            <constraint firstAttribute="centerX" secondItem="cBo-zW-cVw" secondAttribute="centerX" id="Ab6-qZ-sbd"/>
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="trailing" secondItem="EXc-Cs-aau" secondAttribute="trailing" id="D6B-Gq-T0f"/>
                             <constraint firstItem="cBo-zW-cVw" firstAttribute="centerX" secondItem="EXc-Cs-aau" secondAttribute="centerX" id="Fgo-Db-DJf"/>
                             <constraint firstItem="rfR-ts-T29" firstAttribute="centerX" secondItem="cIV-xn-Ema" secondAttribute="centerX" constant="1" id="I0f-4W-gY9"/>
+<<<<<<< Updated upstream:HSE Day/Base.lproj/Main.storyboard
                             <constraint firstItem="rfR-ts-T29" firstAttribute="top" secondItem="p3v-L9-cAE" secondAttribute="top" id="K5Y-ZP-JRy"/>
                             <constraint firstItem="rfR-ts-T29" firstAttribute="leading" secondItem="p3v-L9-cAE" secondAttribute="leading" id="NLL-Im-cew"/>
+=======
+                            <constraint firstItem="bnm-6l-wfO" firstAttribute="top" secondItem="cIV-xn-Ema" secondAttribute="bottom" constant="8" id="J0I-4s-BEs"/>
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="top" secondItem="p3v-L9-cAE" secondAttribute="top" id="K5Y-ZP-JRy"/>
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="leading" secondItem="p3v-L9-cAE" secondAttribute="leading" id="NLL-Im-cew"/>
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="top" secondItem="p3v-L9-cAE" secondAttribute="topMargin" id="Zjd-v6-Loo"/>
+>>>>>>> Stashed changes:HSE Day/Base.lproj/Main.storyboard
                             <constraint firstItem="EXc-Cs-aau" firstAttribute="centerX" secondItem="p3v-L9-cAE" secondAttribute="centerX" constant="-7" id="avT-0P-VGI"/>
+                            <constraint firstAttribute="centerY" secondItem="cBo-zW-cVw" secondAttribute="centerY" constant="-30" id="euq-2H-J6f"/>
                             <constraint firstItem="EXc-Cs-aau" firstAttribute="top" secondItem="cBo-zW-cVw" secondAttribute="bottom" constant="49" id="h26-aM-6Ck"/>
+<<<<<<< Updated upstream:HSE Day/Base.lproj/Main.storyboard
                             <constraint firstItem="rfR-ts-T29" firstAttribute="bottom" secondItem="U4C-lz-GF7" secondAttribute="top" id="sVS-RW-0rf"/>
+=======
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="leading" secondItem="EXc-Cs-aau" secondAttribute="leading" id="lqf-cN-ZVW"/>
+                            <constraint firstAttribute="centerX" secondItem="cIV-xn-Ema" secondAttribute="centerX" id="oK4-xJ-ZWB"/>
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="leading" secondItem="p3v-L9-cAE" secondAttribute="leadingMargin" constant="-16" id="qZQ-yX-ati"/>
+                            <constraint firstItem="rfR-ts-T29" firstAttribute="bottom" secondItem="U4C-lz-GF7" secondAttribute="top" id="sVS-RW-0rf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rfR-ts-T29" secondAttribute="trailing" constant="-16" id="skn-UV-lqt"/>
+                            <constraint firstAttribute="centerX" secondItem="bnm-6l-wfO" secondAttribute="centerX" id="tXT-DV-cga"/>
+>>>>>>> Stashed changes:HSE Day/Base.lproj/Main.storyboard
                             <constraint firstItem="cBo-zW-cVw" firstAttribute="centerX" secondItem="cIV-xn-Ema" secondAttribute="centerX" constant="-6" id="x7P-n9-Jma"/>
+                            <constraint firstItem="U4C-lz-GF7" firstAttribute="top" secondItem="rfR-ts-T29" secondAttribute="bottom" id="xDl-Vt-NkI"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="oK4-xJ-ZWB"/>
+                                <exclude reference="5Xl-CH-D0U"/>
+                                <exclude reference="Fgo-Db-DJf"/>
+                                <exclude reference="x7P-n9-Jma"/>
+                                <exclude reference="avT-0P-VGI"/>
+                                <exclude reference="h26-aM-6Ck"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="inputCode" destination="cBo-zW-cVw" id="muF-YV-0W4"/>
@@ -1316,7 +1383,11 @@
         <image name="2.jpg" width="1280" height="853"/>
         <image name="Ekran.jpg" width="1080" height="1920"/>
         <image name="FB-f-Logo__blue_100.png" width="100" height="100"/>
+<<<<<<< Updated upstream:HSE Day/Base.lproj/Main.storyboard
         <image name="back_1_opacity.jpg" width="1080" height="1920"/>
+=======
+        <image name="background2.jpg" width="500" height="332"/>
+>>>>>>> Stashed changes:HSE Day/Base.lproj/Main.storyboard
         <image name="backwon" width="1080" height="1920"/>
         <image name="cup" width="314" height="335"/>
         <image name="hamb" width="48" height="48"/>

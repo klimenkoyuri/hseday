@@ -120,6 +120,7 @@
 		3AD6EAE01B877CF2008E2CBD /* Ura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6EADF1B877CF2008E2CBD /* Ura.swift */; };
 		3ADE031A1B7F5B25006A48CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADE03191B7F5B25006A48CF /* QuartzCore.framework */; };
 		DA5195C41B87C58B00877D45 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5195C31B87C58B00877D45 /* FirstViewController.swift */; };
+		DA7F9BEB1B89257600C0044D /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA7F9BEA1B89257600C0044D /* background2.jpg */; };
 		DA9334B71B87E87A006941F2 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9334B61B87E87A006941F2 /* WinViewController.swift */; };
 		DA9334B91B888C93006941F2 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9334B81B888C93006941F2 /* Walkthrough.storyboard */; };
 		DA9334BC1B888D09006941F2 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9334BA1B888D09006941F2 /* BWWalkthroughPageViewController.swift */; };
@@ -268,6 +269,7 @@
 		3AD6EADF1B877CF2008E2CBD /* Ura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ura.swift; sourceTree = "<group>"; };
 		3ADE03191B7F5B25006A48CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DA5195C31B87C58B00877D45 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DA7F9BEA1B89257600C0044D /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
 		DA9334B61B87E87A006941F2 /* WinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 		DA9334B81B888C93006941F2 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
 		DA9334BA1B888D09006941F2 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 				3A1714691B70DC7200561E29 /* Main.storyboard */,
 				DA9334B81B888C93006941F2 /* Walkthrough.storyboard */,
 				DA9334BE1B88D0BA006941F2 /* icon1.png */,
+				DA7F9BEA1B89257600C0044D /* background2.jpg */,
 				DA9334BF1B88D0BA006941F2 /* icon5.png */,
 				DA9334C11B88D0BA006941F2 /* icon3.png */,
 				DA9334BA1B888D09006941F2 /* BWWalkthroughPageViewController.swift */,
@@ -638,6 +641,10 @@
 				3A07CA4B1B77B54400636AA7 /* posvyat.plist in Resources */,
 				3AD6EAB01B873CFE008E2CBD /* 14g.png in Resources */,
 				3A17146B1B70DC7200561E29 /* Main.storyboard in Resources */,
+<<<<<<< Updated upstream
+=======
+				DA7F9BEB1B89257600C0044D /* background2.jpg in Resources */,
+>>>>>>> Stashed changes
 				DA9334C91B88DBD4006941F2 /* org.plist in Resources */,
 				3AD6EAB51B873CFE008E2CBD /* 17b.png in Resources */,
 				3AD6EADE1B877979008E2CBD /* Ekran.jpg in Resources */,
