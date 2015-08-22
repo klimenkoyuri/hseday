@@ -23,7 +23,8 @@ class QuestView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillHide:"), name: UIKeyboardWillHideNotification, object: nil)
         
         numberOfQuest = defaults.objectForKey("temp") as! Int
         println(numberOfQuest)
@@ -127,6 +128,20 @@ class QuestView: UIViewController {
         var tmpBtn = vc.imageView?.viewWithTag(x) as? UIButton
         var img : UIImage = UIImage(named:"\(x)g.png")!
         tmpBtn?.setImage(img, forState: .Normal)
+    }
+    
+    func keyboardWillShow(notification: NSNotification) {
+        
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.view.frame.origin.y -= keyboardSize.height
+        }
+        
+    }
+    
+    func keyboardWillHide(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.view.frame.origin.y += keyboardSize.height
+        }
     }
 
     /*
