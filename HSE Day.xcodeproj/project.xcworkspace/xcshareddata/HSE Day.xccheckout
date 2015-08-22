@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11D99DCF-975E-4E9E-9E48-112FCAE1EC0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HSE Day</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8ECB930B5A28FEF6F413AEC4D94E19FD67E92216</key>
+		<string>https://github.com/klimenkoyuri/hseday.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HSE Day.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8ECB930B5A28FEF6F413AEC4D94E19FD67E92216</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/klimenkoyuri/hseday.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8ECB930B5A28FEF6F413AEC4D94E19FD67E92216</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8ECB930B5A28FEF6F413AEC4D94E19FD67E92216</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hseday</string>
+		</dict>
+	</array>
+</dict>
+</plist>
