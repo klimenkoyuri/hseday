@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Desc</key>
+		<string>Рекорд вышкинского антиплагиата 80,00001% оригинальности. Прими вызов!</string>
+		<key>Task</key>
+		<string>Задача: Написать на новой бумажке 2-3 предложения, отражающих общую суть, но и при этом пройти проверку на плагиате.</string>
+		<key>Name</key>
+		<string>Антиплагиат</string>
+		<key>Code</key>
+		<string>20perc</string>
+		<key>X</key>
+		<integer>290</integer>
+		<key>Y</key>
+		<integer>500</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Дедлайн - самое время, чтобы действовать быстро. Будь готов ко всему!</string>
+		<key>Task</key>
+		<string>Задача: За отведенное количество времени (дедлайн) успеть сшить свою работу.</string>
+		<key>Name</key>
+		<string>Дедлайны</string>
+		<key>Code</key>
+		<string>pr00</string>
+		<key>X</key>
+		<integer>310</integer>
+		<key>Y</key>
+		<integer>485</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Докажи всем, что твоя фотка на пропуске - далеко не самая  худшая в твоей жизни!</string>
+		<key>Task</key>
+		<string>Задача: Сделать настолько плохую фотографии, чтобы фотография на пропуске по сравнению с ней была красивой.</string>
+		<key>Name</key>
+		<string>Пропуск в вышку</string>
+		<key>Code</key>
+		<string>strf2</string>
+		<key>X</key>
+		<integer>430</integer>
+		<key>Y</key>
+		<integer>430</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Мало знать, когда первая лекция, нужно в первую очередь знать, где она!</string>
+		<key>Task</key>
+		<string>Задача: Отметить 3-4 здания Вышки на карте метро.</string>
+		<key>Name</key>
+		<string>Вышкинское метро</string>
+		<key>Code</key>
+		<string>wififree</string>
+		<key>X</key>
+		<integer>425</integer>
+		<key>Y</key>
+		<integer>455</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Получи плюсик! Докажи, что не зря пришел!</string>
+		<key>Task</key>
+		<string>Задача: Ответить на 2-3 вопроса. Вопросы задает проводящий, при этом вопросы в основном про отличия вышки от других университетов.</string>
+		<key>Name</key>
+		<string>Семинар</string>
+		<key>Code</key>
+		<string>pl1</string>
+		<key>X</key>
+		<integer>415</integer>
+		<key>Y</key>
+		<integer>580</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Отсутствующий друг на лекции. Отметить за 60 секунд.</string>
+		<key>Task</key>
+		<string>Задача: Отметить Сидорова (Это парная точка). Начинается быстрое перечисление фамилий; и на фамилии Сидоров нужно крикнуть - «Здесь!»
+Если крикнули одновременно проиграли
+Если никто не крикнул проиграли
+Сговариваться нельзя, всего 3 попытки </string>
+		<key>Name</key>
+		<string>Лекция</string>
+		<key>Code</key>
+		<string>za6</string>
+		<key>X</key>
+		<integer>480</integer>
+		<key>Y</key>
+		<integer>550</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Тебе нужен еще один выходной? Не хочешь просиживать лишний день на лекции по французскому? Помоги другу попасть на военку! Спаси свой курс! </string>
+		<key>Task</key>
+		<string>Задача: За ограниченное количество времени пробежать вместе с манекеном короткую дистанцию. </string>
+		<key>Name</key>
+		<string>Военка</string>
+		<key>Code</key>
+		<string>mil3</string>
+		<key>X</key>
+		<integer>500</integer>
+		<key>Y</key>
+		<integer>540</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Электричек много, а правильная - одна. Не упусти ее!</string>
+		<key>Task</key>
+		<string>Задача: с завязанными глазами найти нужный вагон. В качестве подсказки выступает проводник. Когда он говорит горячо значит вагон близко, холодно - далеко.</string>
+		<key>Name</key>
+		<string>Правильная электричка</string>
+		<key>Code</key>
+		<string>pl030</string>
+		<key>X</key>
+		<integer>415</integer>
+		<key>Y</key>
+		<integer>620</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Дорогие гости общежития №8! Вам предоставляется полный спектр услуг при одном уловии: ни за что нельзя ложиться на кровать!</string>
+		<key>Task</key>
+		<string>Задача: Добраться до конспектов друга на противоположной стороне кровати, при этом касаться кровати нельзя. Территория прохождения огорожена. </string>
+		<key>Name</key>
+		<string>Одинцовские общаги</string>
+		<key>Code</key>
+		<string>buh247</string>
+		<key>X</key>
+		<integer>445</integer>
+		<key>Y</key>
+		<integer>625</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Внеучебных проектов много, но не так много чтобы не запомнить их!</string>
+		<key>Task</key>
+		<string>Задача: За ограниченное количество времени раскрыть все карточки. Карточки выложены квадратом, рубашками вверх. Открывается две указанные проходящим квест человеком карты, если они одинаковые то они убираются с поля. Если нет по опять переворачиваются рубашками вверх.</string>
+		<key>Name</key>
+		<string>Запомни внеучебные проекты</string>
+		<key>Code</key>
+		<string>nvkc4</string>
+		<key>X</key>
+		<integer>650</integer>
+		<key>Y</key>
+		<integer>600</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Оправдание за опаздание - тест на находчивость. Сможешьли ты его пройти?</string>
+		<key>Task</key>
+		<string>Задача: Написать оригинальную объяснительную записку, чтобы проводящий эту точку вам поверил.  </string>
+		<key>Name</key>
+		<string>Опоздание</string>
+		<key>Code</key>
+		<string>noh016</string>
+		<key>X</key>
+		<integer>700</integer>
+		<key>Y</key>
+		<integer>600</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Никогда не знаешь, зачем тебе может понадобиться английский! </string>
+		<key>Task</key>
+		<string>Задача: Перевести русскую песню на английский и исполнить её (могут проходить несколько человек сразу) Оценивается больше не точность перевода, а изобретательность. </string>
+		<key>Name</key>
+		<string>IELTS</string>
+		<key>Code</key>
+		<string>reading100</string>
+		<key>X</key>
+		<integer>720</integer>
+		<key>Y</key>
+		<integer>380</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Никто не хочет задолжать библиотечной мафии! Не затягивай со сдачей книг!</string>
+		<key>Task</key>
+		<string>Задача: За ограниченное количество времени перетащить книги с одного стула на другой.</string>
+		<key>Name</key>
+		<string>Библиотека</string>
+		<key>Code</key>
+		<string>30rub</string>
+		<key>X</key>
+		<integer>735</integer>
+		<key>Y</key>
+		<integer>385</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>LMS – головная боль студента, поэтому заставь его работать!</string>
+		<key>Task</key>
+		<string>Задача: С помощью данных шестеренок заставить крутиться рычаг (прикрепить их так чтобы рычаг на другой стороне тоже крутился). </string>
+		<key>Name</key>
+		<string>Покори LMS!</string>
+		<key>Code</key>
+		<string>lug0</string>
+		<key>X</key>
+		<integer>725</integer>
+		<key>Y</key>
+		<integer>340</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Курс БЖД не самый полезный предмет Вышки до опреденного момента. Как и этот танец!</string>
+		<key>Task</key>
+		<string>Задача: Разучить танец, который никогда не пригодится, возможно только в экстренных ситуациях.</string>
+		<key>Name</key>
+		<string>БЖД</string>
+		<key>Code</key>
+		<string>mark10</string>
+		<key>X</key>
+		<integer>750</integer>
+		<key>Y</key>
+		<integer>335</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Зачет по физре потребует от тебя максимальных усилий. Ты уж постарайся!</string>
+		<key>Task</key>
+		<string>Задача: Когда участник квеста приходит на точку, он получает бал автоматом.</string>
+		<key>Name</key>
+		<string>Зачет по физре</string>
+		<key>Code</key>
+		<string>mark9</string>
+		<key>X</key>
+		<integer>740</integer>
+		<key>Y</key>
+		<integer>315</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Забыл пропуск? Будь готов пройтись по тонкой грани!</string>
+		<key>Task</key>
+		<string>Задача: Пройти по этим деревяшкам и не упасть (пройти по тонкой грани).</string>
+		<key>Name</key>
+		<string>Мастера турникетов</string>
+		<key>Code</key>
+		<string>jump2</string>
+		<key>X</key>
+		<integer>765</integer>
+		<key>Y</key>
+		<integer>315</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Заполучить справку в учебке непросто. Твоя задача: достать ее как можно быстрее!</string>
+		<key>Task</key>
+		<string>Задача: не наступая на землю с помощью двух листов добраться до справки за ограниченное количество времени.</string>
+		<key>Name</key>
+		<string>Справка для визы</string>
+		<key>Code</key>
+		<string>shg1god</string>
+		<key>X</key>
+		<integer>880</integer>
+		<key>Y</key>
+		<integer>320</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Да начнется сессия и пусть удача всегда будет на вашей стороне</string>
+		<key>Task</key>
+		<string>Задача: разгадать сложный ребус, как только проходящий квест разгадывает его, ему предлагается разгадать еще 3 попроще (так как в вышке 4 сессии).</string>
+		<key>Name</key>
+		<string>Сессия</string>
+		<key>Code</key>
+		<string>four6</string>
+		<key>X</key>
+		<integer>870</integer>
+		<key>Y</key>
+		<integer>340</integer>
+	</dict>
+	<dict>
+		<key>Desc</key>
+		<string>Все ли пункты меню можно отыскать в вышкинских столовых?</string>
+		<key>Task</key>
+		<string>Задача: Набрать в ведро максимальное количество фруктов, при этом проводящие точку стараются чтобы не все фрукты попали в ведро. Аналогия с игрой Ну, погоди! где волк ловит яйца.</string>
+		<key>Name</key>
+		<string>Вышкинский гурман</string>
+		<key>Code</key>
+		<string>poelza80</string>
+		<key>X</key>
+		<integer>885</integer>
+		<key>Y</key>
+		<integer>350</integer>
+	</dict>
+</array>
+</plist>
