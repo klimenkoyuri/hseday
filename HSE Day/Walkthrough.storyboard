@@ -69,7 +69,7 @@
                                     <action selector="close:" destination="jev-1V-DAb" eventType="touchUpInside" id="XFa-R1-yYy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeG-sY-P1y">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeG-sY-P1y">
                                 <rect key="frame" x="262.5" y="513" width="75" height="36"/>
                                 <color key="backgroundColor" red="0.42352941179999998" green="0.74117647060000003" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -152,7 +152,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Прямо сейчас у тебя есть уникальная возможность почувствовать себя настоящим студентом Вышки!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fco-TZ-lXo">
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" text="Прямо сейчас у тебя есть уникальная возможность почувствовать себя настоящим студентом Вышки!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fco-TZ-lXo">
                                 <rect key="frame" x="180" y="330" width="240" height="125"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -174,7 +174,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добро пожаловать!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5J-fp-0LF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Добро пожаловать!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5J-fp-0LF">
                                 <rect key="frame" x="172" y="285" width="254.5" height="30.5"/>
                                 <color key="tintColor" red="0.29019607843137252" green="0.47450980392156861" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
